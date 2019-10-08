@@ -7,7 +7,6 @@ class Shoe
     @brand = brand
     unsless BRANDS.include?(brand)
         BRANDS  << @brand
-            
   end
 
   def cobble
